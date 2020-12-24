@@ -1,0 +1,25 @@
+.building {
+    text-align: center;
+    color: var(--color-black);
+}
+
+.building_title {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--color-black);
+    margin-bottom: 16px;
+}
+
+.building_description {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--color-gray);
+    margin-bottom: 40px;
+}
+
+.building_img {
+    max-width: 100%;
+    margin-bottom: 144px;
+}

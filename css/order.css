@@ -1,0 +1,86 @@
+        .order_title,
+        .order_text-1,
+        .order_text-2 {
+            font-style: normal;
+            font-weight: normal;
+        }
+        
+        .order_title,
+        .order_text-1 {
+            font-size: 32px;
+            line-height: 48px;
+        }
+        
+        .order_title {
+            text-align: center;
+            color: var(--color-black);
+            max-width: 781px;
+            max-height: 96px;
+            margin: auto;
+            margin-bottom: 168px;
+        }
+        
+        .order_text-1 {
+            max-width: 489px;
+            max-height: 144px;
+            margin-bottom: 16px;
+        }
+        
+        .order_text-2 {
+            max-width: 542px;
+            max-height: 96px;
+            font-size: 20px;
+            line-height: 32px;
+            color: var(--color-gray);
+            margin-bottom: 28px;
+        }
+        
+        .order__link {
+            position: relative;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 32px;
+            color: var(--color-black);
+            text-decoration: none;
+        }
+        
+        .order__link::before {
+            content: '';
+            position: absolute;
+            background-color: var(--color-orange);
+            height: 50%;
+            width: 100%;
+            z-index: -1;
+            bottom: 0;
+        }
+        
+        .order__link::before:hover {
+            height: 100%;
+            left: 50%;
+        }
+        
+        .order_img {
+            max-width: 464px;
+            max-height: 400px;
+        }
+        
+        .sponsor--1 {
+            justify-content: center;
+            text-align: center;
+            display: flex;
+            margin-top: 137px;
+            list-style: none;
+        }
+        
+        .sponsor--2 {
+            margin-top: 10px;
+            justify-content: center;
+            text-align: center;
+            list-style: none;
+        }
+        
+        .spons_img {
+            text-decoration: none;
+            margin: auto;
+            padding-left: 39px;
+        }

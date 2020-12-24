@@ -1,0 +1,65 @@
+.reliability {
+    margin-top: 143px;
+    text-align: center;
+}
+.reliability__title {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.reliability__title::before {
+position: absolute;
+content: '';
+background: url(../images/flower.svg);
+width: 40px;
+height: 40px;
+left: 630px;
+bottom: 60%;
+}
+
+.reliability__description {
+    width: 857px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;  
+}
+.reliability__suptitle {
+    margin: 20px 0 10px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-black);
+}
+
+.reliability__text {
+    max-width: 333px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+.reliability__footer {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    background: #d3d3d3;
+border-radius: 5px;
+height: 130px;
+margin-bottom: 144px;
+}
+.reliability__footer svg {
+    margin-left: 42px;
+ padding-right: 26px;
+}
+.reliability_footer_text     {
+    padding-right: 91px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+}
+.reliability_button {
+text-decoration: none;
+}

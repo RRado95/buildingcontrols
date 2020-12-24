@@ -1,0 +1,59 @@
+.specification {
+    font-style: normal;
+    font-weight: normal;
+}
+.spec {
+    margin: 136px 0 21px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--color-black);
+}
+.spec_description {
+    max-width: 827px;
+    max-height: 46px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--color-gray);
+}
+.spec_suptitle--1, .spec_suptitle--2, .spec_suptitle--3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 19px;
+    max-width: 500px;
+    color: var(--color-gray);
+}
+.spec_suptitle--1 {
+    max-height: 96px;
+}
+.spec_suptitle--2 {
+    max-height: 120px;
+}
+.spec_suptitle--3 {
+    max-height: 72px;
+}
+.spec__title--1, .spec__title--2, .spec__title--3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.spec__title--1 {
+    padding-top: 143px;
+    max-width: 550px;
+}
+.spec__title--2 {
+    min-width: 550px;
+}
+.spec__img--1 {
+    margin: 130px 74px 119px;
+}
+.spec__img--2 {
+  margin: 76px 74px 131px;
+}
+.spec__img--3 {
+    margin: 154px 74px 0;
+  }
